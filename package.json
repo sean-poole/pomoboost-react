@@ -17,8 +17,11 @@
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"npm run start-backend\" \"npm start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
