@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# 🍅 PomoBoost 🍅 | <a href="https://rich-gold-peacock-veil.cyclic.app" target="_blank">Visit Here</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personalized, interactive task management tool with a built-in Pomodoro timer to keep you on track and consistent.
 
-## Available Scripts
+<p align="center">
+<img src="https://github.com/sean-poole/pomoboost-react/blob/main/preview/pomoboost-react-preview.gif" width="100%" alt="PomoBoost">
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## ⏳ How It's Made: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Tech Used: JavaScript, Node, Express, React, Mongoose, MongoDB, Passport, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application is built using the MERN stack. The front end is assembled with the React library, while Node.js and Express construct the back end following an MVC architecture. MongoDB serves as the database for user and task storage, and Passport.js is employed for user authentication.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 Optimization: 
 
-### `npm run build`
+Database indexing to optimize MongoDB queries and enhance performance.
+Apply client-side caching for static assets to reduce the number of requests and improve load times.
+More detailed error handling on both the front and back end to provide informative feedback and simplify debugging.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📝 Lessons Learned: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Understanding and implementing efficient state management using context and hooks to oversee user authentication and authorization.
+Utilizing useEffect to manage side effects, handle component life cycle events, and prevent memory leaks by cleaning up resources.
+Learning to effectively use React Router for directing client-side navigation, implementing features like nested routes, and managing route guards for secure navigation.
