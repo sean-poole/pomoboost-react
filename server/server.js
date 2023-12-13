@@ -6,6 +6,7 @@ const passport = require("passport");
 const session = require("express-session");
 const MongoStore = require("connect-mongo");
 const logger = require("morgan");
+const path = require("path");
 const connectDB = require("./config/database");
 
 require("dotenv").config({ path: "./config/.env"});
@@ -37,6 +38,16 @@ app.use(passport.session());
 
 app.use("/", homeRoutes);
 app.use("/tasks", taskRoutes);
+
+app.use(express.static(path.join(__dirname, "./client/build")));
+app.get("*", function(_, res) {
+  res.sendFile(
+    path.join(__dirname, "./client/build/index.html"),
+    function(err) {
+      res.status(500).send(err);
+    }
+  );
+});
 
 connectDB().then(() => {
   app.listen(process.env.PORT, () => {
