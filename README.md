@@ -1,4 +1,4 @@
-# 🍅 PomoBoost 🍅 | <a href="https://rich-gold-peacock-veil.cyclic.app" target="_blank">Visit Here</a>
+# 🍅 PomoBoost 🍅 
 
 Personalized, interactive task management tool with a built-in Pomodoro timer to keep you on track and consistent.
 
