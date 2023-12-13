@@ -14,8 +14,6 @@ require("./config/passport")(passport);
 const homeRoutes = require("./routes/home");
 const taskRoutes = require("./routes/tasks");
 
-connectDB();
-
 app.use(cors({ credentials: true, origin: true }));
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
@@ -40,6 +38,8 @@ app.use(passport.session());
 app.use("/", homeRoutes);
 app.use("/tasks", taskRoutes);
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running on PORT: ${process.env.PORT}`);
+connectDB().then(() => {
+  app.listen(process.env.PORT, () => {
+    console.log(`Server is running on PORT: ${process.env.PORT}`);
+  });
 });
