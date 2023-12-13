@@ -12,6 +12,8 @@ const connectDB = require("./config/database");
 require("dotenv").config({ path: "./config/.env"});
 require("./config/passport")(passport);
 
+connectDB();
+
 const homeRoutes = require("./routes/home");
 const taskRoutes = require("./routes/tasks");
 
@@ -46,8 +48,6 @@ app.get("*", function(_, res) {
   });
 });
 
-connectDB().then(() => {
-  app.listen(process.env.PORT, () => {
-    console.log(`Server is running on PORT: ${process.env.PORT}`);
-  });
+app.listen(process.env.PORT, () => {
+  console.log(`Server is running on PORT: ${process.env.PORT}`);
 });
