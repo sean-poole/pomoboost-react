@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.js';
-import { AuthProvider } from "./context/AuthProvider";
+import { AuthProvider } from "./context/AuthProvider.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
