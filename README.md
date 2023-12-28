@@ -16,13 +16,13 @@ The application is built using the MERN stack. The front end is assembled with t
 
 ## 💡 Optimization: 
 
-Database indexing to optimize MongoDB queries and enhance performance.
-Apply client-side caching for static assets to reduce the number of requests and improve load times.
-More detailed error handling on both the front and back end to provide informative feedback and simplify debugging.
+Database indexing to optimize MongoDB queries and enhance performance. <br />
+Apply client-side caching for static assets to reduce the number of requests and improve load times. <br />
+More detailed error handling on both the front and back end to provide informative feedback and simplify debugging. <br />
 
 
 ## 📝 Lessons Learned: 
 
-Understanding and implementing efficient state management using context and hooks to oversee user authentication and authorization.
-Utilizing useEffect to manage side effects, handle component life cycle events, and prevent memory leaks by cleaning up resources.
-Learning to effectively use React Router for directing client-side navigation, implementing features like nested routes, and managing route guards for secure navigation.
+Understanding and implementing efficient state management using context and hooks to oversee user authentication and authorization. <br />
+Utilizing useEffect to manage side effects, handle component life cycle events, and prevent memory leaks by cleaning up resources. <br />
+Learning to effectively use React Router for directing client-side navigation, implementing features like nested routes, and managing route guards for secure navigation. <br />
